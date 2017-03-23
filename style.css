@@ -1,0 +1,131 @@
+h1:hover {
+    color:black;
+    font-weight: bold;
+}
+
+#background1 {
+   background-image:url("http://blog.hostbaby.com/backgrounds/bg_lightwoodfloor.jpg");
+}
+
+#background2 {
+   background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCPBCnIhgQxJjVSNaJBkxWFba3DWxiRiF0hP89pef_KH58wiNh);
+}
+
+#paragraph2 {
+    color:white;
+}
+
+#background3 {
+    background-image: url("http://wallpaperpulse.com/thumb/433040.jpg");
+}
+
+#background4 {
+    background-image: url("background4.jpg");
+}
+
+body {
+     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+      overflow: auto;
+      font-family: bold;
+}
+      
+head {
+    font-size:50px;
+}
+
+h1 {
+    font-size: 70px;
+    color:white;
+}
+
+.h {
+  font: 200 40px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+  display:inline;
+  border:2px solid yellow;
+}
+
+a:hover {
+  color: red;  
+}
+
+h4,h3,h2 {
+    font-size:50px;
+    color:red;
+}
+
+h4,h3,h2:hover {
+    color:white;
+}
+
+#starryNight {
+    display:block;
+    margin:auto;
+    width:400px;
+    height:400px;
+}
+
+.d {
+  font: 20px/1.5 Helvetica, Verdana, sans-serif;
+  display:block;
+  color:white;
+}
+
+#monaLisa {
+    display:block;
+    margin:auto;
+    width:400px;
+    height:400px;
+}
+
+
+.i {
+    font: 27px/1.5 Helvetica, sans-serif;
+  color: #555;
+ list-style-type: none;
+}
+
+#venus {
+    width:400px;
+    height:400px;
+    display:block;
+    margin:auto;
+}
+
+#guernica {
+    display:block;
+    margin:auto;
+    width:400px;
+    height:400px;
+}
+
+div {
+    color:white;
+    background-color: transparent;
+    opacity:1;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+div #art{
+    opacity:0;
+    height: 200px;
+    width: 200px;
+    display:block;
+}
+
+div #art:hover {
+    opacity: 1;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
